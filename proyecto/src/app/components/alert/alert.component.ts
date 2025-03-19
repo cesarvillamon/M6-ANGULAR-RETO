@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./alert.component.css']
 })
 export class AlertComponent {
-
+  menuItemsAlert = ["Inicio", "Necesidades", "Productos y Servicios", "Educación Financiera", "Trámites Digitales", "Sucursal Virtual Personas"]
 }

@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   menuItems = ["Personas", "Negocios", "Corporativos", "Negocios especializados", "Tu360", "Blog"]
+  
 }
