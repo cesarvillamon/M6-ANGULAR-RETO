@@ -1,13 +1,13 @@
 <body>
   <div class="principal-container">
-    <form>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
       <h1>Login</h1>
       <div class="input-container">
-        <input type="text" placeholder="usuario">
+        <input type="text" formControlName="username" placeholder="usuario">
         <i class="bi bi-person"></i>
       </div>
       <div class="input-container">
-        <input type="password" placeholder="contraseña">
+        <input type="password" formControlName="password" placeholder="contraseña">
         <i class="bi bi-lock"></i>
       </div>
       <div class="checkbox-recordar">

@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: green;
+    background: url("/assets/imgtotal7.jpg") center center/cover;
 }
 .principal-container{
     width: 420px;
@@ -77,4 +77,12 @@ body{
     font-size: 15px;
     text-align: center;
     margin: 15px 0 15px;
+}
+.registro-container a{
+    text-decoration: none;
+    color: #fff;
+}
+.registro-container a:hover{
+    text-decoration: underline;
+    font-weight: bold;
 }
