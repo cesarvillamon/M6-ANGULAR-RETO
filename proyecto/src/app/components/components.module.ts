@@ -13,6 +13,7 @@ import { NewComponent } from './news/new/new.component';
 import { ServicesComponent } from './services/services.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MainComponent } from './main/main.component';
+import { CrearoperacionesComponent } from './crearoperaciones/crearoperaciones.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MainComponent } from './main/main.component';
     NewsComponent,
     NewComponent,
     ServicesComponent,
-    MainComponent
+    MainComponent,
+    CrearoperacionesComponent
   ],
   imports: [
     CommonModule,
@@ -36,7 +38,7 @@ import { MainComponent } from './main/main.component';
   exports: [
     HeaderComponent,
     AlertComponent,
-    HeroComponent                                                                     
+    HeroComponent                                                                 
   ]
 })
 export class ComponentsModule { }

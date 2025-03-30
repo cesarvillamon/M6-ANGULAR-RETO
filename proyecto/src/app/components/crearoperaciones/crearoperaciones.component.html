@@ -1,0 +1,26 @@
+<div class="form-container">
+    <form [formGroup]="formulario" (ngSubmit)="enviarFormulario()">    
+        
+        <input id="cuenta" type="hidden" formControlName="cuenta">     
+        
+        <div class="form-group">
+            <select id="codigoTransaccion" formControlName="codigoTransaccion">
+                <option value="sucursal">Depósito desde sucursal</option>
+                <option value="cajero">Depósito desde cajero</option>
+                <option value="otraCuenta">Depósito entre cuentas</option>
+                <option value="fisico">Compra en establecimiento físico</option>
+                <option value="web">Compra en página web</option>
+                <option value="retiro">Retiro en cajero</option>
+            </select>
+        </div>
+         
+        <div class="form-group">
+            <label for="monto">Monto:</label>
+            <input id="monto" type="text" formControlName="monto">
+        </div>
+         
+        <div class="form-group button-container">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</div>
